@@ -40,7 +40,7 @@
                                 <div class="price__cy">
                                     С/У
                                 </div>
-                                <input class="price__checkbox" type="checkbox" @change="cheackbox = !cheackbox">
+                                <input class="price__checkbox" type="checkbox" @change="cheackbox = !cheackbox" >
                             </div>
                         </div>
                     </div>
@@ -54,6 +54,7 @@
                     </div>
                     <div class="price__note center-align">
                         <p>Стоимость <span class="price__note-bold">без учет материалов!</span></p>
+                        <p>Для точного расчета вызовите мастера на замер.</p>
                     </div>
                     <button class="price__btn btn" @click="form = !form">Заказать расчет с материалами</button>
                 </div>
@@ -164,6 +165,8 @@
         border-radius: 4px;
         padding-left: 10px;
         background-color: #ffffff;
+        font-size: 16px;
+        color: #575448;
     }
 
     .price__form-option, .price__form-checkbox {
@@ -172,6 +175,10 @@
 
     .price__space {
         width: 100px;
+    }
+
+    .price__option {
+        font-size: 16px;
     }
 
     .price__cy {
@@ -212,7 +219,7 @@
     }
 
     .price__note {
-        height: 60px;
+        height: 90px;
         color: #000000;
 
     }

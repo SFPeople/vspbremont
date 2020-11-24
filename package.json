@@ -9,6 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@naumstory/nuxtjs-yandex-metrika": "^1.0.5",
+    "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "vue-picture-swipe": "^2.0.2"

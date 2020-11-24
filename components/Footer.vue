@@ -134,6 +134,10 @@
         border: none;
     }
 
+    .footer__form-submit:hover {
+        background: #108CC2;
+    }
+
     .footer__bottom-line {
         height: 100px;
         background: #1E333F;

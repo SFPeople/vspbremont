@@ -30,11 +30,6 @@
                     <iframe class="video__setting" src="https://www.youtube.com/embed/QLRD0mpM7_k"></iframe>
                 </div>
             </div>
-
-            <div class="video__other-works">
-                <p>Другие наши фото и видео смотрите в группе:</p>
-                <a href="https://vk.com/vspbremont" class="video__link">https://vk.com/vspbremont</a>
-            </div>
         </div>
     </section>
 </template>
@@ -45,6 +40,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 20px;
+        padding-bottom: 100px;
     }
 
     .video__bath {

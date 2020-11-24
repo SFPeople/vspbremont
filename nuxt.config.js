@@ -1,14 +1,14 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Качественный ремонт квартир в Санкт-Петербурге',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      // { name: 'theme-color', conten: '#000000'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // { rel: 'stylesheet', href: '/assets/main.css'}
     ],
     script: [
       { src: 'https://vk.com/js/api/openapi.js?168' }
@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    { src: '~/plugins/vue-picture-swipe', mode: 'client' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -33,7 +34,18 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    '@nuxtjs/sitemap', 
+    ['@naumstory/nuxtjs-yandex-metrika', { id: '40322375', webvisor: true }] /*счетчик берется в метрике (вместо id)*/
   ],
+
+  sitemap: {
+    hostname: 'https://remont-vspb.ru',
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    },
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
