@@ -34,7 +34,7 @@
                         <p class="price__form-title">Площадь</p>
                         <div class="price__form-checkbox">
                             <div>
-                                <input class="price__space" type="number" v-model="space">
+                                <input class="price__space" type="number" v-model="space" v-on:keyup="sumResult()" >
                             </div>
                             <div class="price__checkbox-do">
                                 <div class="price__cy">
