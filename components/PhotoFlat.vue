@@ -2,7 +2,7 @@
     <section class="photo">
         <div class="container">
             <div class="container__line-one">
-                <img src="~assets/img/line-two.png" alt="">
+                <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title" id="our-work">
                 Фото ремонтов
@@ -17,7 +17,7 @@
                         <vue-picture-swipe :items="work1"></vue-picture-swipe>
                         <div class="photo__footer">
                             <div class="photo__sum">16 фото</div>
-                            <div><img src="~assets/img/camera.png" alt="camera" class="photo__icon-camera"></div>
+                            <div><img src="/img/camera.png" alt="camera" class="photo__icon-camera"></div>
                         </div>                    
                     </client-only>
                 </div>
@@ -26,7 +26,7 @@
                         <vue-picture-swipe :items="work2"></vue-picture-swipe>
                         <div class="photo__footer">
                             <div class="photo__sum">16 фото</div>
-                            <div><img src="~assets/img/camera.png" alt="camera" class="photo__icon-camera"></div>
+                            <div><img src="/img/camera.png" alt="camera" class="photo__icon-camera"></div>
                         </div>                    
                     </client-only>
                 </div>
@@ -35,7 +35,7 @@
                         <vue-picture-swipe :items="work3"></vue-picture-swipe>
                         <div class="photo__footer">
                             <div class="photo__sum">12 фото</div>
-                            <div><img src="~assets/img/camera.png" alt="camera" class="photo__icon-camera"></div>
+                            <div><img src="/img/camera.png" alt="camera" class="photo__icon-camera"></div>
                         </div>                    
                     </client-only>
                 </div>
@@ -44,7 +44,7 @@
                         <vue-picture-swipe :items="work4"></vue-picture-swipe>
                         <div class="photo__footer">
                             <div class="photo__sum">22 фото</div>
-                            <div><img src="~assets/img/camera.png" alt="camera" class="photo__icon-camera"></div>
+                            <div><img src="/img/camera.png" alt="camera" class="photo__icon-camera"></div>
                         </div>                    
                     </client-only>
                 </div>
@@ -53,7 +53,7 @@
                         <vue-picture-swipe :items="work5"></vue-picture-swipe>
                         <div class="photo__footer">
                             <div class="photo__sum">29 фото</div>
-                            <div><img src="~assets/img/camera.png" alt="camera" class="photo__icon-camera"></div>
+                            <div><img src="/img/camera.png" alt="camera" class="photo__icon-camera"></div>
                         </div>                    
                     </client-only>
                 </div>
@@ -62,7 +62,7 @@
                         <vue-picture-swipe :items="work6"></vue-picture-swipe>
                         <div class="photo__footer">
                             <div class="photo__sum">34 фото</div>
-                            <div><img src="~assets/img/camera.png" alt="camera" class="photo__icon-camera"></div>
+                            <div><img src="/img/camera.png" alt="camera" class="photo__icon-camera"></div>
                         </div>                   
                     </client-only>
                 </div>

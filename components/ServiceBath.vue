@@ -11,6 +11,6 @@
 
 <style scoped>
     .service {
-        background: #8b969f url('~assets/img/bath.jpg') no-repeat center; 
+        background: #8b969f url('/img/bath.jpg') no-repeat center; 
     }
 </style>

@@ -2,7 +2,7 @@
     <section class="contract">
         <div class="container">
             <div class="container__line-one">
-                <img src="~assets/img/line-two.png" alt="">
+                <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title">
                 Наше отношение к работе
@@ -13,13 +13,13 @@
             <div class="contract__block">
                 <div class="contract__pages">
                     <div class="contract__page">
-                        <img class="contract__img" src="~assets/img/page-1.jpg" alt="Страница 1 договора">
+                        <img class="contract__img" src="/img/page-1.jpg" alt="Страница 1 договора">
                     </div>
                     <div class="contract__page">
-                        <img class="contract__img" src="~assets/img/page-2.jpg" alt="Страница 2 договора">
+                        <img class="contract__img" src="/img/page-2.jpg" alt="Страница 2 договора">
                     </div>
                     <div class="contract__page">
-                        <img class="contract__img" src="~assets/img/page-3.jpg" alt="Страница 3 договора">
+                        <img class="contract__img" src="/img/page-3.jpg" alt="Страница 3 договора">
                     </div>
                 </div>
                 <p class="contract__description">

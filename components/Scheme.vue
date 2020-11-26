@@ -2,7 +2,7 @@
     <section class="scheme background">
        <div class="container">
             <div class="scheme__line-left">
-                <img src="~assets/img/line-one.png" alt="">
+                <img src="/img/line-one.png" alt="">
             </div>
             <div class="scheme__block">
                 <div class="scheme__block-left">
@@ -18,7 +18,7 @@
                 <div class="scheme__block-right">
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-1.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-1.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">
@@ -31,7 +31,7 @@
                     </div>
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-2.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-2.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">
@@ -44,7 +44,7 @@
                     </div>
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-3.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-3.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-4.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-4.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-5.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-5.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">
@@ -83,7 +83,7 @@
                     </div>
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-6.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-6.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">
@@ -96,7 +96,7 @@
                     </div>
                     <div class="scheme__step">
                         <div class="scheme__block-img">
-                            <img src="~assets/img/shag-7.svg" alt="" class="scheme__img">
+                            <img src="/img/shag-7.svg" alt="" class="scheme__img">
                         </div>
                         <div class="scheme__block-info">
                             <h3 class="scheme__step-title">

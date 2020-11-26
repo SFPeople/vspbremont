@@ -9,7 +9,7 @@
                 </div>  
 
                 <div class="header__logo">
-                    <nuxt-link to="/" no-prefetch><img src="~assets/img/logo.svg" alt=""></nuxt-link>
+                    <nuxt-link to="/" no-prefetch><img src="/img/logo.svg" alt=""></nuxt-link>
                 </div>
 
                 <ul class="header__ul"> 
@@ -29,7 +29,7 @@
             <!-- Правый блок шапки -->
             <div class="header__right-block">
                 <div class="header__icon-phone">
-                    <img src="~assets/img/telefon.png" alt="">
+                    <img src="/img/telefon.png" alt="">
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+79522711182" class="header__num header__num-one">8 (952) 27-111-82</a>

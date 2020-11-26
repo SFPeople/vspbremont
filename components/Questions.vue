@@ -2,7 +2,7 @@
     <section class="questions">
         <div class="container">
             <div class="container__line-one">
-                <img src="~assets/img/line-two.png" alt="">
+                <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title">
                 Часто задаваемые вопросы
@@ -14,10 +14,10 @@
                 <div class="question__block" @click="conditionTwo = !conditionTwo">
                     <p>Как определяется стоимость ремонта?</p>
                     <div class="question__add" v-if="!conditionTwo">
-                        <img src="~assets/img/add.svg" alt="">
+                        <img src="/img/add.svg" alt="">
                     </div>
                     <div class="question__minus" v-else>
-                        <img src="~assets/img/minus.svg" alt="">
+                        <img src="/img/minus.svg" alt="">
                     </div>
                 </div>
                 <div class="question__answer" v-if="conditionTwo">
@@ -27,10 +27,10 @@
                 <div class="question__block" @click="conditionThree = !conditionThree">
                     <p>Кто покупает материалы?</p>
                     <div class="question__add" v-if="!conditionThree">
-                        <img src="~assets/img/add.svg" alt="">
+                        <img src="/img/add.svg" alt="">
                     </div>
                     <div class="question__minus" v-else>
-                        <img src="~assets/img/minus.svg" alt="">
+                        <img src="/img/minus.svg" alt="">
                     </div>
                 </div>
                 <div class="question__answer" v-if="conditionThree">
@@ -43,10 +43,10 @@
                 <div class="question__block" @click="conditionOne = !conditionOne">
                     <p>Можно ли будет пользоваться унитазом во время ремонта? </p>
                     <div class="question__add" v-if="!conditionOne">
-                        <img src="~assets/img/add.svg" alt="">
+                        <img src="/img/add.svg" alt="">
                     </div>
                     <div class="question__minus" v-else>
-                        <img src="~assets/img/minus.svg" alt="">
+                        <img src="/img/minus.svg" alt="">
                     </div>
                 </div>
                 <div class="question__answer" v-if="conditionOne">

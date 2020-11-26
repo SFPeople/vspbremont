@@ -4,7 +4,7 @@
             <div class="footer__about-us">
                 <div class="footer__about-us-block">
                     <div class="footer__about-us-logo">
-                        <img class="footer__about-us-img" src="~assets/img/logo.svg" alt="">
+                        <img class="footer__about-us-img" src="/img/logo.svg" alt="">
                     </div>
                     <p class="footer__about-us-name">
                         РЕМОНТвСПб
@@ -17,23 +17,23 @@
             <div class="footer__address">
                 <p class="footer__title">Контакты</p>
                 <div class="footer__address-item footer__address_mrg footer__address_border">
-                    <img src="~assets/img/map.svg" alt="">
+                    <img src="/img/map.svg" alt="">
                     <p class="footer__address-data">г. Санкт-Петербург, ул.Марата 86А</p>
                 </div>
                 <div class="footer__address-item footer__address_border">
-                    <div><img src="~assets/img/telefon.png" alt=""></div>
+                    <div><img src="/img/telefon.png" alt=""></div>
                     <p class="footer__address-data">8 (952) 27-111-82</p>
                 </div>
                 <div class="footer__address-item footer__address_border">
-                    <div><img src="~assets/img/telefon.png" alt=""></div>
+                    <div><img src="/img/telefon.png" alt=""></div>
                     <p class="footer__address-data">8 (812) 98-111-86</p>
                 </div>
                 <div class="footer__address-item footer__address_border">
-                    <div><img src="~assets/img/mail.svg" alt=""></div>
+                    <div><img src="/img/mail.svg" alt=""></div>
                     <p class="footer__address-data">vspb-remont@yandex.ru</p>
                 </div>
                 <div class="footer__address-item">
-                    <div><img src="~assets/img/graph.svg" alt=""></div>
+                    <div><img src="/img/graph.svg" alt=""></div>
                     <p class="footer__address-data">понедельник-воскресенье с 9:00 до 21:00</p>
                 </div>
             </div>

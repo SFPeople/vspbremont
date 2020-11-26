@@ -2,7 +2,7 @@
     <section class="video">
         <div class="container">
             <div class="container__line-one">
-                <img src="~assets/img/line-two.png" alt="">
+                <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title" id="our-work">
                 Видео некоторых наших работ
@@ -83,8 +83,4 @@
             font-size: 16px;
         }
     }
-
-    
-
-
 </style>

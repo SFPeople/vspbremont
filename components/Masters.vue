@@ -2,7 +2,7 @@
     <section class="masters background">
         <div class="container">
             <div class="container__line-one">
-                <img src="~assets/img/line-one.png" alt="">
+                <img src="/img/line-one.png" alt="">
             </div>
             <h2 class="container__title">
                 18 лучших наших мастеров
@@ -12,58 +12,58 @@
             </p>
             <div class="masters__list">
                 <div class="master">
-                    <img src="~assets/img_masters/master_1.png" alt="" class="img-master">
+                    <img src="/img_masters/master_1.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_2.png" alt="" class="img-master">
+                    <img src="/img_masters/master_2.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_3.png" alt="" class="img-master">
+                    <img src="/img_masters/master_3.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_4.png" alt="" class="img-master">
+                    <img src="/img_masters/master_4.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_5.png" alt="" class="img-master">
+                    <img src="/img_masters/master_5.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_6.png" alt="" class="img-master">
+                    <img src="/img_masters/master_6.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_7.png" alt="" class="img-master">
+                    <img src="/img_masters/master_7.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_8.png" alt="" class="img-master">
+                    <img src="/img_masters/master_8.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_9.png" alt="" class="img-master">
+                    <img src="/img_masters/master_9.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_10.png" alt="" class="img-master">
+                    <img src="/img_masters/master_10.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_11.png" alt="" class="img-master">
+                    <img src="/img_masters/master_11.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_12.png" alt="" class="img-master">
+                    <img src="/img_masters/master_12.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_13.png" alt="" class="img-master">
+                    <img src="/img_masters/master_13.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_14.png" alt="" class="img-master">
+                    <img src="/img_masters/master_14.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_15.png" alt="" class="img-master">
+                    <img src="/img_masters/master_15.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_16.png" alt="" class="img-master">
+                    <img src="/img_masters/master_16.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_17.png" alt="" class="img-master">
+                    <img src="/img_masters/master_17.png" alt="" class="img-master">
                 </div>
                 <div class="master">
-                    <img src="~assets/img_masters/master_18.png" alt="" class="img-master">
+                    <img src="/img_masters/master_18.png" alt="" class="img-master">
                 </div>
             </div>
             <div class="masters__block">

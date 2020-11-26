@@ -2,7 +2,7 @@
     <section class="price background">
         <div class="container">
             <div class="container__line-one">
-                <img src="~assets/img/line-one.png" alt="">
+                <img src="/img/line-one.png" alt="">
             </div>
             <h2 class="container__title" id="our-price">
                 Калькулятор ремонта
