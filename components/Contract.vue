@@ -5,52 +5,62 @@
                 <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title">
-                Наше отношение к работе
+                {{ contractTitle }}
             </h2>
             <p class="container__subtitle">
                 Работаем с предоставлением всех гарантий
             </p>
             <div class="contract__block">
-                <div class="contract__pages">
-                    <div class="contract__page">
-                        <img class="contract__img" src="/img/page-1.jpg" alt="Страница 1 договора">
+                <client-only>
+                    <div class="contract__pages">
+                        <div class="contract__page">
+                            <img class="contract__img" src="/img/page-1.jpg" alt="Страница 1 договора">
+                        </div>
+                        <div class="contract__page">
+                            <img class="contract__img" src="/img/page-2.jpg" alt="Страница 2 договора">
+                        </div>
+                        <div class="contract__page">
+                            <img class="contract__img" src="/img/page-3.jpg" alt="Страница 3 договора">
+                        </div>
                     </div>
-                    <div class="contract__page">
-                        <img class="contract__img" src="/img/page-2.jpg" alt="Страница 2 договора">
-                    </div>
-                    <div class="contract__page">
-                        <img class="contract__img" src="/img/page-3.jpg" alt="Страница 3 договора">
-                    </div>
-                </div>
+                </client-only>
                 <p class="contract__description">
-                    Гарантии являются неотъемлемой частью добропорядочных и честных взаимоотношений. Ответственность фирмы закреплена договором в письменной форме. Обязательства по ремонту выполняются в полном объеме. В компании работают грамотные исполнители, использующие в процессе отделки квартир профессиональные инструменты. Не нужно оплачивать ремонтные работы до их завершения. Каждому помещению вашего жилья будет уделено максимум усилий, вы останетесь довольны конечным результатом. Ремонт и отделка квартиры будет радовать вас долгие годы.
+                    {{ contractDescription }}
                 </p>
-                <div class="contract__advantages">
-                    <div class="contract__advantage contract__advantage_gray">
-                        <p class="contract__advantage-text">
-                            Более <span class="color-blue">17</span> лет на рынке
-                        </p>
+                <client-only>
+                    <div class="contract__advantages">
+                        <div class="contract__advantage contract__advantage_gray">
+                            <p class="contract__advantage-text">
+                                Более <span class="color-blue">17</span> лет на рынке
+                            </p>
+                        </div>
+                        <div class="contract__advantage">
+                            <p class="contract__advantage-text">
+                                Бесплатный замер
+                            </p>
+                        </div>
+                        <div class="contract__advantage">
+                            <p class="contract__advantage-text">
+                                Бесплатная смета
+                            </p>
+                        </div>
+                        <div class="contract__advantage contract__advantage_gray">
+                            <p class="contract__advantage-text">
+                                Более <span class="color-blue">33 000</span> подписчиков в ВК
+                            </p>
+                        </div>
                     </div>
-                    <div class="contract__advantage">
-                        <p class="contract__advantage-text">
-                            Бесплатный замер
-                        </p>
-                    </div>
-                    <div class="contract__advantage">
-                        <p class="contract__advantage-text">
-                            Бесплатная смета
-                        </p>
-                    </div>
-                    <div class="contract__advantage contract__advantage_gray">
-                        <p class="contract__advantage-text">
-                            Более <span class="color-blue">33 000</span> подписчиков в ВК
-                        </p>
-                    </div>
-                </div>
+                </client-only>
             </div>
         </div>
     </section>
 </template>
+
+<script>
+    export default {
+        props: ['contractTitle', 'contractDescription']
+    }
+</script>
 
 <style scoped>
     .contract__block {

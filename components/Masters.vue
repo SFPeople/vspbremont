@@ -5,72 +5,74 @@
                 <img src="/img/line-one.png" alt="">
             </div>
             <h2 class="container__title">
-                18 лучших наших мастеров
+                {{ mastersTitle }}
             </h2>
             <p class="container__subtitle">
                 У каждого из представленных специалистов за плечами более 12 лет опыта
             </p>
-            <div class="masters__list">
-                <div class="master">
-                    <img src="/img_masters/master_1.png" alt="" class="img-master">
+            <client-only>
+                <div class="masters__list">
+                    <div class="master">
+                        <img src="/img_masters/master_1.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_2.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_3.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_4.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_5.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_6.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_7.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_8.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_9.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_10.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_11.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_12.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_13.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_14.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_15.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_16.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_17.png" alt="" class="img-master">
+                    </div>
+                    <div class="master">
+                        <img src="/img_masters/master_18.png" alt="" class="img-master">
+                    </div>
                 </div>
-                <div class="master">
-                    <img src="/img_masters/master_2.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_3.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_4.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_5.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_6.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_7.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_8.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_9.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_10.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_11.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_12.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_13.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_14.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_15.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_16.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_17.png" alt="" class="img-master">
-                </div>
-                <div class="master">
-                    <img src="/img_masters/master_18.png" alt="" class="img-master">
-                </div>
-            </div>
+            </client-only>
             <div class="masters__block">
                 <div class="masters__description">
-                    <p>Основной акцент в нашей компании всегда был направлен на повышение качества выполняемых работ. В команде нет ни одного мастера с опытом работы менее 12 лет. Доверяя ремонт нашим специалистам вы можете быть уверены в их ответственном и профессиональном отношении.</p> 
+                    <p>{{ masterDescriptionOne }}</p> 
                     <br>
-                    <p>Мастера работаю в Санкт-Петербурге с объектами разного уровня. Можно заказать экономный вариант или отделку по дизайн-проекту. Если вы не планируете ремонт туалета, ванной или совмещенного санузла в ближайшее время, то рекомендуем вступить в нашу группу вконтакте. Там возможно более тщательно ознакомиться с информацией, сохранить контакты, получить смету, удалено вести переписку с администратором, задавать ему интересующие вопросы и получать подробные ответы.</p>
+                    <p>{{ masterDescriptionTwo }}</p>
                 </div>
                 <div class="masters__vk">
                     <div id="vk_groups"></div>
@@ -82,16 +84,14 @@
 
 <script>
     export default {
+        props: ['mastersTitle', 'masterDescriptionOne', 'masterDescriptionTwo'],
         mounted () {
-            VK.Widgets.Group("vk_groups", { mode: 0, width: "300", height: "493"}, 15028247);
-        
+            VK.Widgets.Group("vk_groups", { mode: 0, width: "300", height: "493"}, 15028247);  
         },
     }
 </script>
 
 <style scoped>
-    
-
     .masters__list {
         display: flex;
         flex-wrap: wrap;
@@ -144,7 +144,6 @@
             height: auto;
             padding: 20px 20px 20px 20px;
         }
-
         .master {
             width: 15%
         }
@@ -159,6 +158,4 @@
             margin-top: 20px;
         }
     }
-
-
 </style>

@@ -5,29 +5,29 @@
                 <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title" id="our-work">
-                Видео некоторых наших работ
+                Видео 
             </h2>
             <p class="container__subtitle">
                 Ознакомьтесь с нашей работой в деталях
             </p>
             <div class="video__block">
                 <div class="video__bath">
-                    <iframe class="video__setting" src="https://www.youtube.com/embed/qyT0bVZGXrI"></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=-15028247&id=456239087&hash=e1af710cb8fc7fc1&hd=4" width="1920" height="1080" frameborder="1" allowfullscreen class="video__setting"></iframe>
                 </div>
                 <div class="video__bath">
-                    <iframe class="video__setting" src="https://www.youtube.com/embed/G1eljEtvEF0"></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=-15028247&id=456239086&hash=35640428497212a1&hd=4" width="1920" height="1080" frameborder="1" allowfullscreen class="video__setting"></iframe>
                 </div>
                 <div class="video__bath">
-                    <iframe class="video__setting" src="https://www.youtube.com/embed/BCUGPJqzu0k"></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=-15028247&id=456239085&hash=7880be75aec1afcc&hd=4" width="1920" height="1080" frameborder="1" allowfullscreen class="video__setting"></iframe>
                 </div>
                 <div class="video__bath">
-                    <iframe class="video__setting" src="https://www.youtube.com/embed/m9GEZkuHOcc"></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=-15028247&id=456239083&hash=6e87aabade472069&hd=4" width="1920" height="1080" frameborder="1" allowfullscreen class="video__setting"></iframe>
                 </div>
                 <div class="video__bath">
-                    <iframe class="video__setting" src="https://www.youtube.com/embed/8nhZP7_bPcQ"></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=-15028247&id=456239082&hash=bb4f5a825e57aff8&hd=4" width="1920" height="1080" frameborder="1" allowfullscreen class="video__setting"></iframe>
                 </div>
                 <div class="video__bath">
-                    <iframe class="video__setting" src="https://www.youtube.com/embed/QLRD0mpM7_k"></iframe>
+                    <iframe src="https://vk.com/video_ext.php?oid=-15028247&id=456239080&hash=cf3a6c1401d6eb88&hd=4" width="1920" height="1080" frameborder="1" allowfullscreen class="video__setting"></iframe>
                 </div>
             </div>
         </div>
@@ -52,15 +52,6 @@
     .video__setting {
         width: 100%;
         height: 100%;
-      
-    }
-
-    .video__other-works {
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 100px;
-        padding: 40px 0;
-        border: 1px dashed #CCCCCC;
     }
 
     .video__link {
@@ -71,12 +62,6 @@
     @media (max-width: 740px) {
         .video__bath {
             width: 100%;
-        }
-
-        .video__other-works {
-            margin-top: 20px;
-            padding: 20px 0;
-            margin-bottom: 50px;
         }
 
         .video__link {

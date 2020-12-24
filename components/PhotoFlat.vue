@@ -5,7 +5,7 @@
                 <img src="/img/line-two.png" alt="">
             </div>
             <h2 class="container__title" id="our-work">
-                Фото ремонтов
+                Примеры работ
             </h2>
             <p class="container__subtitle">
                 Здесь представлено несколько последних наших работ

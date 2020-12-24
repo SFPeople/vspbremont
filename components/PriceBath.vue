@@ -5,7 +5,7 @@
                 <img src="/img/line-one.png" alt="">
             </div>
             <h2 class="container__title" id="our-price">
-                Калькулятор ремонта 
+                Примерная стоимость
             </h2>
             <p class="container__subtitle">
                 Рассчитайте стоимость ванной, туалета или совмещенного санузла

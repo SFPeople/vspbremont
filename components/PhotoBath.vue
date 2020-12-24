@@ -8,7 +8,7 @@
                 Фото ремонтов
             </h2>
             <p class="container__subtitle">
-                Здесь представлено несколько последних наших работ
+                Примеры последних работ наших мастеров
             </p>
 
             <div class="photo__block">
@@ -69,7 +69,7 @@
             </div>
             
             <div class="photo__other-works">
-                <p>Другие наши объекты смотрите в группе:</p>
+                <p>Больше фото работ смотрите в группе:</p>
                 <a href="https://vk.com/vspbremont" class="photo__link">https://vk.com/vspbremont</a>
             </div>
         </div>

@@ -56,7 +56,7 @@
                         <p>Стоимость <span class="price__note-bold">без учет материалов!</span></p>
                         <p>Для точного расчета вызовите мастера на замер.</p>
                     </div>
-                    <button class="price__btn btn" @click="form = !form">Заказать расчет с материалами</button>
+                    <button class="price__btn btn" @click="form = !form">Вызвать на бесплатный замер</button>
                 </div>
             </div>
 
@@ -89,32 +89,32 @@
                 let bathroom = 0;
 
                 if (this.typeRepair == "Эконом" &&  this.typeHome == "Новостройка") {
-                    counter = 2800;
-                    bathroom = 25324;
+                    counter = 1200;
+                    bathroom = 38000;
                 } else if (this.typeRepair == "Эконом" &&  this.typeHome == "Вторичка") {
-                    counter = 3360;
-                    bathroom = 30389;
+                    counter = 1400;
+                    bathroom = 42000;
                 } else if (this.typeRepair == "Эконом" &&  this.typeHome == "Старый фонд") {
-                    counter = 7650;
-                    bathroom = 43051;
+                    counter = 1800;
+                    bathroom = 46000;
                 } else if (this.typeRepair == "Капитальный" &&  this.typeHome == "Новостройка") {
-                    counter = 4500;
-                    bathroom = 65218;
+                    counter = 2500;
+                    bathroom = 64000;
                 } else if (this.typeRepair == "Капитальный" &&  this.typeHome == "Вторичка") {
-                    counter = 5400;
-                    bathroom = 78261;
+                    counter = 3200;
+                    bathroom = 68000;
                 } else if (this.typeRepair == "Капитальный" &&  this.typeHome == "Старый фонд") {
-                    counter = 7650;
-                    bathroom = 110870;
+                    counter = 4000;
+                    bathroom = 76000;
                 } else if (this.typeRepair == "Дизайнерский" &&  this.typeHome == "Новостройка") {
-                    counter = 7000;
-                    bathroom = 79026;
+                    counter = 5000;
+                    bathroom = 88000;
                 } else if (this.typeRepair == "Дизайнерский" &&  this.typeHome == "Вторичка") {
-                    counter = 8400;
-                    bathroom = 94830;
+                    counter = 6000;
+                    bathroom = 92000;
                 } else if (this.typeRepair == "Дизайнерский" &&  this.typeHome == "Старый фонд") {
-                    counter = 11900;
-                    bathroom = 134343;
+                    counter = 7000;
+                    bathroom = 98000;
                 }
                 
                 if (this.cheackbox) {
